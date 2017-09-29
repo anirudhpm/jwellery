@@ -1,0 +1,179 @@
+.ml-10{
+margin-left: 6rem!important;
+}
+
+.mr-10{
+margin-right: 6rem!important;
+}
+
+.navbar-light .navbar-toggler{
+border:none;
+}
+
+.octicon {
+  display: inline-block;
+  vertical-align: text-top;
+  fill: currentColor;
+}
+
+.featuresFlex{
+background-color: #009688;
+color:white;
+}
+
+.media-body{
+font-family:  'Montserrat',open sans,sans-serif;
+}
+.sectionHeading{
+font-family:  'Montserrat',open sans,sans-serif;
+text-align:center;
+position:relative;
+}
+
+.sectionHeading h3::after{
+content: '';
+border-bottom: 2px #000 solid;
+position: absolute;
+top: 1.5em;
+left: 20%;
+width: 100px;
+}
+
+
+.media-body h5{
+font-weight:bold;
+}
+
+.carousel-caption{
+color:black;
+ top: 30%;
+ bottom: auto;
+ font-family:'Spinnaker',open sans,sans-serif;
+ /* letter-spacing: 0.2em; */
+}
+
+.transBox{
+background-color:rgba(255,255,255,0.6);
+padding:4em 3em 2em 3em;
+}
+
+.btn-info:hover, .btn-info:active, .show>.btn-info.dropdown-toggle,
+.btn-info{
+border-radius:unset;
+background-color: rgba(239, 42, 114, 1);
+border-color: rgba(239, 42, 114, 1);
+}
+
+.btn-outline-info{
+border-radius:unset;
+border-color: rgba(239, 42, 114, 1);
+color:black;
+padding-left:1.5em;
+padding-right:1.5em;
+}
+
+.btn-outline-info:hover, .btn-outline-info:active
+{
+background-color: rgba(239, 42, 114, 1);
+border-color: rgba(239, 42, 114, 1);
+}
+
+.btn-info.focus, .btn-info:focus, .btn-outline-info:focus{
+   box-shadow: 0 0 0 3px rgba(239,42,114,.5);
+}
+	
+	
+.card{
+border:none;
+}
+
+.hoverZoom{
+overflow:hidden;
+transition: all .3s ease; 
+-webkit-transition: all .75s ease;
+}
+
+.hoverZoom:hover { transform: scale(1.1); }
+
+
+.media-body:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1228px){
+.carousel-caption{
+ transform:scale(0.8,0.8);
+ top:30%;
+}
+}
+
+@media (max-width: 1024px){
+.carousel-caption{
+  top:25%;
+ }
+ .transBox{
+ padding:  2em 4em 2em 4em;
+ }
+}
+
+
+@media (max-width: 768px){
+.carousel-caption{
+  top:40%;
+ }
+ 
+  .media{
+  align-self: center;
+  }
+ 
+}
+
+@media (max-width: 576px){
+.heroSec{
+min-height:100vh !important;
+background-image: url("assets/carousel/51.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-color: transparent;
+position:relative;
+}
+
+.heroContent{
+position:absolute;
+top:42%;
+text-align:center;
+color:rgba(255,255,255,0.85);
+}
+
+}
+
+@media (max-width: 500px){
+ 
+  .media{
+  transform:scale(0.8,0.8);
+  }
+  
+  .media img{
+  transform:scale(0.7,0.7);
+  }
+ 
+}
+
+@media (max-width: 330px){
+.carousel-caption{
+  top:30%;
+ }
+ 
+}
+
